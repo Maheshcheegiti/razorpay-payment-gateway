@@ -60,7 +60,7 @@ const swaggerOptions = {
 
     servers: [
       {
-        url: "https://razorpay-api.onrender.com",
+        url: "https://razorpay-payment-gateway-ukev.onrender.com",
       },
       {
         url: "http://localhost:" + process.env.PORT,
