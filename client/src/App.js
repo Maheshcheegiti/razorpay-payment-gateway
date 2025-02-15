@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Payment from "./pages/Payment";
+import Logo from "./assets//icon.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="wrapper">
+      <header className="header">
+        <img src={Logo} alt="Logo" className="logo" />
+        <h1>Payment Gateway Integration with Razorpay</h1>
       </header>
+      <Payment />
+      <footer className="footer">
+        <p>Developed by Cheegiti Mahesh | 2025</p>
+        <div className="footer-links">
+          <a
+            href="https://www.linkedin.com/in/cheegitimahesh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/MaheshCheegiti"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://github.com/Maheshcheegiti/razorpay-payment-gateway"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Repository
+          </a>
+          <a
+            href="https://your-api-docs-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            API Docs
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

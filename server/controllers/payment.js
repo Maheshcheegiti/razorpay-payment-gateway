@@ -1,6 +1,7 @@
 const Payment = require("../models/payment");
 const Razorpay = require("razorpay");
 const crypto = require("crypto");
+require("dotenv").config();
 
 const razorpayInstance = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
@@ -53,7 +54,7 @@ const verifyPayment = async (req, res) => {
 
     // Create ExpectedSign
     const expectedSign = crypto
-      .createHmac("sha256", {}.RAZORPAY_SECRET)
+      .createHmac("sha256", process.env.RAZORPAY_KEY_SECRET)
       .update(sign.toString())
       .digest("hex");
 
