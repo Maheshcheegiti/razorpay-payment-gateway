@@ -50,12 +50,12 @@ npm install
 3. Create a `.env` file in the `server` directory and add the following environment variables
 
 ```
-PORT=5000
-MONGO_URI=mongodb+srv://ramahesh024:Mahesh@cluster0.6wj0o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-MONGO_DB_NAME=razorpay
-RAZORPAY_KEY_ID=rzp_test_VWMvEFbJ4sOcA6
-RAZORPAY_KEY_SECRET=kxj5DoLsLFjEoUhyBG6w44Hd
-CORS_ORIGIN=http://localhost:3000
+PORT=SAMPLE_PORT
+MONGO_URI=SAMPLE_MONGO_URI
+MONGO_DB_NAME=SAMPLE_MONGO_DB_NAME
+RAZORPAY_KEY_ID=SAMPLE_RAZORPAY_KEY_ID
+RAZORPAY_KEY_SECRET=SAMPLE_RAZORPAY_KEY_SECRET
+CORS_ORIGIN=SAMPLE_CORS_ORIGIN
 ```
 
 4. Create a `.env` file in the `client` directory and add the following environment variables
