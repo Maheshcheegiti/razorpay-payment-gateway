@@ -4,7 +4,7 @@ A complete Razorpay payment gateway integration with React (frontend) and Node.j
 
 ## Demo Link
 
-- [Live Demo](https://razorpay-payment-gateway.herokuapp.com/)
+- [Live Demo](https://razorpay-integration-demo.netlify.app)
 
 ## Features
 

@@ -35,7 +35,7 @@ function App() {
             Repository
           </a>
           <a
-            href="https://your-api-docs-link.com"
+            href="https://razorpay-payment-gateway-ukev.onrender.com/api-docs"
             target="_blank"
             rel="noopener noreferrer"
           >
